@@ -2,6 +2,7 @@ language: node_js
 node_js: node
 deploy: 
   provider: heroku
+  edge: true
   api_key:
     secure: CQYVFAazopdEord+fjJgbZdnRVaxf5jyzJ3bAw17N8MIm6G6PZnSNpBFAO/l+Jm8SvH4JASlBbDFynyh9Ak00e5ZB/xqxyDlHn5uNM/gQ+6guU/8Zjszkf0+VV/DbbNN66sdLqQhVKNlbYt2NG7wTPy17/+OE+6c0dOzXjwKOFdgUOCWbXORvfPWdykpjv8TzjLP1/jbJCkJDeVwH+LOek+hlNZEMF20ZlGWSW6LhbH+gWCFWFloYOScg1V8rR2G0R7fJBYoNhi7wyaVJ0drFolumJcBr7/UfRIwFoDEDhSlMcciCfPdDOmGpsu9MEFNEsBr8fqMeMynXAyEF4YxpCkz6GPpGunOjn8BdQ5d0kkeQ/ov6Ns6+0+Nxg7FtB1FeUQB5NSPDl1KCtd5QamtIq18xj+fSd8Q4Zep3M/SEk1dzrkGEnzImzel+evf9Z93CJppF54PgNQZULbyOeeSOcSiSiLTCcUYql5N6Lu+Qlp2grcZ508XuLK/Y5z8EaCe8ogCtZBkgKdx/YKNQ2hD7GJHlAEb7EKaWZchSyL48KOVemEdqeRi+Kp9sj+CBzoyBOi7rM4AjwAzuNFDvWYeF3xJ7BECoMFuofULPT7TFGQndmlyfQhRv0Bq7Q/u4EvfqwJhUOZv1j5+T4xx1C8XR0kYGvqKatsOeWzJsfFxWwQ=
   app: serene-coast-27343
