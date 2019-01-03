@@ -1,5 +1,5 @@
 {
-  "name": "node-shopping-list-v5",
+  "name": "shopping-list-v5",
   "version": "0.0.1",
   "description": "Shopping list app to demo 'the modern classic'",
   "main": "server.js",
@@ -16,5 +16,18 @@
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
     "mocha": "^5.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianCharapata/node-shopping-list-integration-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianCharapata/node-shopping-list-integration-tests/issues"
+  },
+  "homepage": "https://github.com/BrianCharapata/node-shopping-list-integration-tests#readme"
 }
